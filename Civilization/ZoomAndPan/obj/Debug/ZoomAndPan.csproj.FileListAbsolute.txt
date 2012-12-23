@@ -1,0 +1,9 @@
+C:\Users\Amichai\Downloads\InfiniteWorkspaceZoomAndPanSample\InfiniteWorkspaceZoomAndPanSample\ZoomAndPan\bin\Debug\ZoomAndPan.dll
+C:\Users\Amichai\Downloads\InfiniteWorkspaceZoomAndPanSample\InfiniteWorkspaceZoomAndPanSample\ZoomAndPan\bin\Debug\ZoomAndPan.pdb
+C:\Users\Amichai\Downloads\InfiniteWorkspaceZoomAndPanSample\InfiniteWorkspaceZoomAndPanSample\ZoomAndPan\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Amichai\Downloads\InfiniteWorkspaceZoomAndPanSample\InfiniteWorkspaceZoomAndPanSample\ZoomAndPan\obj\Debug\ZoomAndPan_MarkupCompile.cache
+C:\Users\Amichai\Downloads\InfiniteWorkspaceZoomAndPanSample\InfiniteWorkspaceZoomAndPanSample\ZoomAndPan\obj\Debug\ZoomAndPan_MarkupCompile.lref
+C:\Users\Amichai\Downloads\InfiniteWorkspaceZoomAndPanSample\InfiniteWorkspaceZoomAndPanSample\ZoomAndPan\obj\Debug\Themes\Generic.baml
+C:\Users\Amichai\Downloads\InfiniteWorkspaceZoomAndPanSample\InfiniteWorkspaceZoomAndPanSample\ZoomAndPan\obj\Debug\ZoomAndPan.g.resources
+C:\Users\Amichai\Downloads\InfiniteWorkspaceZoomAndPanSample\InfiniteWorkspaceZoomAndPanSample\ZoomAndPan\obj\Debug\ZoomAndPan.dll
+C:\Users\Amichai\Downloads\InfiniteWorkspaceZoomAndPanSample\InfiniteWorkspaceZoomAndPanSample\ZoomAndPan\obj\Debug\ZoomAndPan.pdb

@@ -1,0 +1,46 @@
+﻿<Window x:Class="ZoomAndPanSample.WarRoom"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     xmlns:src="clr-namespace:ZoomAndPanSample"
+    Title="Actions" 
+    Height="500" 
+    Width="650"
+    WindowStyle="ToolWindow"
+    ShowInTaskbar="False" 
+    ShowActivated="False"
+    >
+    <Window.Resources>
+        <DataTemplate x:Key="ResourceTemplate">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin="5" Text="{Binding Key}" FontWeight="Bold">
+                <Run Text=": "/></TextBlock>
+                <TextBlock Margin="5" Text="{Binding Value}" />
+            </StackPanel>
+        </DataTemplate>
+        
+        <DataTemplate x:Key="BuildOptionsTemplate">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Margin="5" Text="{Binding Name}" FontWeight="Bold" Width="100" />
+                    <TextBlock Margin="5" Text="{Binding Info}" Width="100" TextWrapping="Wrap"></TextBlock>
+                </StackPanel>
+                <ListView Margin="5" ItemTemplate="{StaticResource ResourceTemplate}" ItemsSource="{Binding Cost}" />
+                <Image Width="{Binding Width}" Height="{Binding Height}" Source="{Binding Source}"></Image>
+                <ListView Margin="5" ItemTemplate="{StaticResource ResourceTemplate}" ItemsSource="{Binding Attributes}" />
+            </StackPanel>
+        </DataTemplate>
+    </Window.Resources>
+    <DockPanel >
+        <ListView Name="lb" ItemTemplate="{StaticResource ResourceTemplate}" DockPanel.Dock="Top">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"></StackPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
+        <ScrollViewer Height="{Binding RelativeSource={RelativeSource FindAncestor, 
+                    AncestorType={x:Type StackPanel}}, Path=Height}">
+        <ListView Name="BuildOptions" ItemTemplate="{StaticResource BuildOptionsTemplate}"> </ListView>
+        </ScrollViewer>
+    </DockPanel>
+</Window>
